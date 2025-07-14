@@ -1,0 +1,19 @@
+@echo off
+
+start msedge.exe "https://teams.microsoft.com/v2/" "https://ccgroup.service-now.com/now/nav/ui/classic/params/target/%24pa_dashboard.do%3Fsysparm_dashboard%3Dd479af3cc329a290034a1375e401311b" 
+timeout /t 2
+
+start "Outlook" "C:\Program Files\Microsoft Office\root\Office16\OUTLOOK.EXE"
+timeout /t 3
+
+start "Onenote" "C:\Program Files\Microsoft Office\root\Office16\ONENOTE.EXE"
+timeout /t 3
+
+start "Teams" "C:\Program Files\WindowsApps\MSTeams_25163.3611.3774.6315_x64__8wekyb3d8bbwe\ms-teams.exe"
+timeout /t 3
+
+start "KeePass" "C:\Program Files\KeePass Password Safe 2\KeePass.exe"
+timeout /t 3
+
+start "Workspace" "C:\Program Files (x86)\Citrix\ICA Client\SelfServicePlugin\SelfService.exe"
+timeout /t 3
